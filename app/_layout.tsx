@@ -18,7 +18,7 @@ export default function AppLayout() {
 					name="sign-up"
 					options={{
 						headerShown: true,
-						headerTitle: "Sign Up",
+						headerTitle: "",
 						headerStyle: {
 							backgroundColor:
 								colorScheme === "dark"
