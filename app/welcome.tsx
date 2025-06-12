@@ -47,6 +47,12 @@ export default function WelcomeScreen() {
 				>
 					<Text className="text-black text-lg font-bold">Sign In</Text>
 				</Button>
+				<Muted 
+					className="text-center underline cursor-pointer"
+					onPress={() => router.push("/terms")}
+				>
+					Terms and Conditions
+				</Muted>
 			</View>
 		</SafeAreaView>
 	);
